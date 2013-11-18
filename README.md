@@ -134,7 +134,7 @@ The `fileStore` type is used to setup a backend for storing data:
 
 As part of the configuration, an `imageStore` should be specified to store converted data-uri images for published projects. When a project is saved, the project data is scanned for data-uris which are converted into binary blobs and stored on the server in the `imageStore`. Currently, there are no special checks or functionality for image store content-types. However, the only images which will be converted are jpegs and pngs. Everything else is ignored. See below for an example `imageStore` configuration.
 
-Server Monitoring
+Server Monitoring here
 -----------------
 
 Popcorn Maker supports server monitoring with [New Relic](https://newrelic.com/). It is implemented by the [newrelic npm module](https://github.com/newrelic/node-newrelic/).
