@@ -18,3 +18,5 @@
 /user_published/
 bower_components/
 .idea/
+
+public/external/popcorn-js
