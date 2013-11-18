@@ -23,12 +23,8 @@ define([ "WebmakerUI", "localized", "dialog/dialog", "util/lang", "l10n!/layouts
         _toolTip, _loginTooltip,
         _projectDetails = new ProjectDetails( butter ),
         _togetherJS,
-        _langSelector = _rootElement.querySelector( "#lang-picker" ),
         _togetherjsBtn = _rootElement.querySelector( ".together-toggle" ),
         _togetherJSSyncer;
-
-    // URL redirector for language picker
-    // WebmakerUI.langPicker( _langSelector );
 
     // create a tooltip for the plrojectName element
     _toolTip = ToolTip.create({
@@ -319,7 +315,7 @@ define([ "WebmakerUI", "localized", "dialog/dialog", "util/lang", "l10n!/layouts
       document.body.classList.add( "butter-header-spacing" );
       document.body.insertBefore( _rootElement, document.body.firstChild );
 
-      loadDashboard();
+      // loadDashboard();
     };
 
     butter.listen( "authenticated", _this.views.login, false );
