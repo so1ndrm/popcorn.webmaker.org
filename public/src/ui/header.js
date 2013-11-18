@@ -28,7 +28,7 @@ define([ "WebmakerUI", "localized", "dialog/dialog", "util/lang", "l10n!/layouts
         _togetherJSSyncer;
 
     // URL redirector for language picker
-    WebmakerUI.langPicker( _langSelector );
+    // WebmakerUI.langPicker( _langSelector );
 
     // create a tooltip for the plrojectName element
     _toolTip = ToolTip.create({
