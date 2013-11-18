@@ -44,31 +44,6 @@
                             "name": "TrackEvent49"
                         },
                         {
-                            "id": "TrackEvent1",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "zindex": 1000,
-                                "pitch": 11.125000000000004,
-                                "heading": -132.47954475121762,
-                                "fullscreen": "",
-                                "location": "",
-                                "type": "STREETVIEW",
-                                "target": "video-container",
-                                "end": 5.84361,
-                                "start": 0.0933,
-                                "zoom": 1,
-                                "transition": "popcorn-fade",
-                                "left": 34.30441960360493,
-                                "top": 0,
-                                "width": 35.16998827667057,
-                                "height": 100,
-                                "lat": 40.84541,
-                                "lng": -73.86520300000001
-                            },
-                            "track": "0",
-                            "name": "TrackEvent13"
-                        },
-                        {
                             "id": "TrackEvent2",
                             "type": "popup",
                             "popcornOptions": {
@@ -336,31 +311,6 @@
                             },
                             "track": "1",
                             "name": "TrackEvent31"
-                        },
-                        {
-                            "id": "TrackEvent12",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "zindex": 999,
-                                "pitch": 1,
-                                "heading": 0,
-                                "fullscreen": "",
-                                "location": "",
-                                "type": "ROADMAP",
-                                "target": "video-container",
-                                "end": 5.90743,
-                                "start": 0.17861,
-                                "zoom": 16,
-                                "transition": "popcorn-fade",
-                                "left": 69.86908996510478,
-                                "top": 56.690289062151166,
-                                "width": 30.246189917936693,
-                                "height": 43.309710937848834,
-                                "lat": 40.85780670395874,
-                                "lng": -73.88402625674439
-                            },
-                            "track": "1",
-                            "name": "TrackEvent3"
                         },
                         {
                             "id": "TrackEvent13",
@@ -649,31 +599,6 @@
                             "name": "TrackEvent53"
                         },
                         {
-                            "id": "TrackEvent25",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "zindex": 998,
-                                "pitch": 1,
-                                "heading": 0,
-                                "fullscreen": "",
-                                "location": "",
-                                "type": "ROADMAP",
-                                "target": "video-container",
-                                "end": 5.876,
-                                "start": 0.37707,
-                                "zoom": 16,
-                                "transition": "popcorn-fade",
-                                "left": 69.71278129121484,
-                                "top": 0,
-                                "width": 30.363423212192263,
-                                "height": 56.273448701400056,
-                                "lat": 40.84587716980881,
-                                "lng": -73.86527225131226
-                            },
-                            "track": "2",
-                            "name": "TrackEvent4"
-                        },
-                        {
                             "id": "TrackEvent26",
                             "type": "image",
                             "popcornOptions": {
@@ -938,31 +863,6 @@
                             "name": "TrackEvent60"
                         },
                         {
-                            "id": "TrackEvent37",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "zindex": 997,
-                                "pitch": 1,
-                                "heading": 0,
-                                "fullscreen": "",
-                                "location": "Bronx, New York, NY",
-                                "type": "ROADMAP",
-                                "target": "video-container",
-                                "end": 5.83092,
-                                "start": 0.73429,
-                                "zoom": 15,
-                                "transition": "popcorn-fade",
-                                "left": 0,
-                                "top": 0,
-                                "width": 34.11488862837045,
-                                "height": 55.43976797989784,
-                                "lat": 0,
-                                "lng": 0
-                            },
-                            "track": "3",
-                            "name": "TrackEvent12"
-                        },
-                        {
                             "id": "TrackEvent38",
                             "type": "image",
                             "popcornOptions": {
@@ -1012,31 +912,6 @@
                     "name": "Layer 4",
                     "id": "4",
                     "trackEvents": [
-                        {
-                            "id": "TrackEvent40",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "zindex": 996,
-                                "pitch": 1,
-                                "heading": 0,
-                                "fullscreen": "",
-                                "location": "",
-                                "type": "ROADMAP",
-                                "target": "video-container",
-                                "end": 5.84458,
-                                "start": 1.1312,
-                                "zoom": 16,
-                                "transition": "popcorn-fade",
-                                "left": 0,
-                                "top": 56.273448701400056,
-                                "width": 34.11488862837045,
-                                "height": 43.726551298599944,
-                                "lat": 40.85425241435317,
-                                "lng": -73.86065885180665
-                            },
-                            "track": "4",
-                            "name": "TrackEvent9"
-                        },
                         {
                             "id": "TrackEvent41",
                             "type": "popup",

@@ -364,7 +364,7 @@ define( [ "localized", "util/lang", "util/uri", "util/xhr", "util/keys", "util/m
   }
 
   function onAddMediaClick() {
-    // transitionend event is not reliable and not cross browser supported.
+    // transitioned event is not reliable and not cross browser supported.
     _cancelSpinner = setTimeout( function() {
       _loadingSpinner.classList.remove( "hidden" );
     }, 300 );

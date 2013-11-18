@@ -456,25 +456,6 @@
                             "name": "TrackEvent3"
                         },
                         {
-                            "id": "TrackEvent15",
-                            "type": "wikipedia",
-                            "popcornOptions": {
-                                "start": 5.32507,
-                                "end": 9.26447,
-                                "target": "video-container",
-                                "lang": "en",
-                                "src": "Bacon_mania",
-                                "width": 40,
-                                "height": 60.63492063492063,
-                                "top": 0,
-                                "left": 60,
-                                "transition": "popcorn-fade",
-                                "zindex": 999
-                            },
-                            "track": "1",
-                            "name": "TrackEvent6"
-                        },
-                        {
                             "id": "TrackEvent16",
                             "type": "image",
                             "popcornOptions": {

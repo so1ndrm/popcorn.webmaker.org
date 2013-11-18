@@ -469,7 +469,6 @@ function init() {
 
           var sequencerEvents = popcorn.data.trackEvents.where({ type: "sequencer" }),
               imageEvents = popcorn.data.trackEvents.where({ type: "image" }),
-              mapEvents = popcorn.data.trackEvents.where({ type: "googlemap" }),
               attributionContainer = document.querySelector( ".attribution-details" ),
               attributionMedia = document.querySelector( ".attribution-media" ),
               toggler = $( ".attribution-logo" ),
@@ -562,14 +561,6 @@ function init() {
             if ( foundMatch ) {
               attributionContainer.appendChild( imagesContainer );
             }
-          }
-
-          // We only need to know if a maps event exists in some fashion.
-          if ( mapEvents.length ) {
-            var extraAttribution = __defaultLayouts.querySelector( ".attribution-extra" ).cloneNode( true );
-
-            extraAttribution.querySelector( ".data-container" ).innerHTML = Popcorn.manifest.googlemap.about.attribution;
-            attributionContainer.appendChild( extraAttribution );
           }
         },
         preload: config.preload

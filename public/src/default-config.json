@@ -30,10 +30,6 @@
         "icon": "{{baseDir}}templates/assets/plugins/popup/popup-icon.png"
       },
       {
-        "type": "googlemap",
-        "icon": "{{baseDir}}resources/icons/map.png"
-      },
-      {
         "type": "image",
         "icon": "{{baseDir}}templates/assets/plugins/image/image-icon.png"
       },
@@ -50,10 +46,6 @@
         "type": "pausePlugin",
         "displayName": "Pause",
         "icon": "{{baseDir}}templates/assets/plugins/pausePlugin/pause-icon.png"
-      },
-      {
-        "type": "wikipedia",
-        "icon": "{{baseDir}}templates/assets/plugins/wikipedia/wikipedia-icon.png"
       },
       {
         "type": "sketchfab",

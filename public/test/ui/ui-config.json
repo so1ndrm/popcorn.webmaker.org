@@ -26,17 +26,11 @@
       {
         "type": "image",
         "path": "../../templates/assets/plugins/image/popcorn.image.js"
-      },
-      {
-        "name": "googlemap",
-        "type": "googlemap",
-        "path": "../../templates/assets/plugins/googlemap/popcorn.googlemap.js"
       }
     ],
     "defaults": [
       "text",
-      "image",
-      "googlemap"
+      "image"
     ]
   },
   "dirs": {

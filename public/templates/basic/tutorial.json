@@ -72,24 +72,6 @@
                 "track": "Layer",
                 "name": "TrackEvent3"
             }, {
-                "id": "TrackEvent2",
-                "type": "wikipedia",
-                "popcornOptions": {
-                    "start": 40.54502,
-                    "end": 42.27772,
-                    "target": "video-container",
-                    "lang": "en",
-                    "src": "Africa",
-                    "width": 45.357142857142854,
-                    "height": 75.55555555555556,
-                    "top": 0,
-                    "left": 1.607142857142857,
-                    "transition": "popcorn-fade",
-                    "zindex": 1000
-                },
-                "track": "Layer",
-                "name": "TrackEvent5"
-            }, {
                 "id": "TrackEvent3",
                 "type": "pausePlugin",
                 "popcornOptions": {
@@ -205,30 +187,6 @@
                 },
                 "track": "Layer",
                 "name": "TrackEvent4"
-            }, {
-                "id": "TrackEvent8",
-                "type": "googlemap",
-                "popcornOptions": {
-                    "start": 42.27772,
-                    "end": 44.12592,
-                    "target": "video-container",
-                    "type": "ROADMAP",
-                    "location": "",
-                    "fullscreen": "",
-                    "heading": 0,
-                    "pitch": 1,
-                    "zoom": 1,
-                    "transition": "popcorn-fade",
-                    "left": 4.464285714285714,
-                    "top": 1.2698412698412698,
-                    "width": 29.642857142857142,
-                    "height": 54.6031746031746,
-                    "lat": 12.869476408482024,
-                    "lng": 23.258522999999958,
-                    "zindex": 999
-                },
-                "track": "Layer",
-                "name": "TrackEvent6"
             }, {
                 "id": "TrackEvent9",
                 "type": "pausePlugin",

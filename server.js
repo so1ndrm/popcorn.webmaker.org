@@ -268,11 +268,9 @@ app.get( "/dialog/dialogs/first-run.html", routes.path( "/dialog/dialogs/first-r
 app.get( "/dialog/dialogs/track-data.html", routes.path( "/dialog/dialogs/track-data.html" ) );
 app.get( "/dialog/dialogs/remove-project.html", routes.path( "/dialog/dialogs/remove-project.html" ) );
 app.get( "/editors/default.html", routes.path( "/editor/default.html" ) );
-app.get( "/templates/assets/editors/googlemap/googlemap-editor.html", routes.path( "/plugins/googlemap-editor.html" ) );
 app.get( "/templates/assets/editors/popup/popup-editor.html", routes.path( "/plugins/popup-editor.html" ) );
 app.get( "/templates/assets/editors/image/image-editor.html", routes.path( "/plugins/image-editor.html" ) );
 app.get( "/templates/assets/editors/text/text-editor.html", routes.path( "/plugins/text-editor.html" ) );
-app.get( "/templates/assets/editors/wikipedia/wikipedia-editor.html", routes.path( "/plugins/wikipedia-editor.html" ) );
 app.get( "/templates/assets/editors/sketchfab/sketchfab-editor.html", routes.path( "/plugins/sketchfab-editor.html" ) );
 
 // Localized Strings

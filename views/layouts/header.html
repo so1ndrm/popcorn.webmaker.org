@@ -19,13 +19,6 @@
     <!-- webmaker user bar -->
     <div id="webmaker-nav">
       <nav class="webmaker-nav-container">
-        <div class="lang-picker">
-          <select id="lang-picker" data-supported="{{supportedLanguages}}">
-          {% for language in listDropdownLang %}
-            <option {% if languageNameFor(localeInfo.lang) == languageNameFor(language) %} selected="selected" {% endif %} value="{{language}}">{{ languageNameFor(language) }}</option>
-          {% endfor %}
-          </select>
-        </div>
         <div class="butter-btn-menu-container butter-project-menu">
           <a class="butter-btn btn-white butter-project-menu-control butter-btn-menu-control"><span class="icon icon-only icon-reorder"></span></a>
           <ul class="butter-btn-menu">
@@ -34,7 +27,7 @@
             <li><a class="butter-remove-project-btn" target="_blank"> <span class="icon icon-trash"></span> {{ gettext("Delete Project") }}</a></li>
           </ul>
         </div>
-
+<!--
         <div class="webmaker-nav user-info">
           <div class="user">
               {{ gettext("Hi") }} <span id="identity" class="user-name-container"></span> <span class="icon icon-caret-down"></span>
@@ -48,9 +41,7 @@
             </li>
           </ul>
         </div>
-
-        <div class="back-to-webmaker"><span class="icon webmaker-icon"></span> <a href="{{audience}}/{{localeInfo.lang}}">Webmaker.org</a></div>
-
+-->
       </nav>
       <div class="my-projects-container">
         <iframe class="my-projects-iframe"></iframe>

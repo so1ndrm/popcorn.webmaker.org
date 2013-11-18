@@ -21,7 +21,6 @@ requirejs.config({
     "popcorn.soundcloud": "../external/popcorn-js/players/soundcloud/popcorn.soundcloud",
 
     // Plugins
-    "popcorn.googlemap": "../templates/assets/plugins/googlemap/popcorn.googlemap",
     "popcorn.image": "../templates/assets/plugins/image/popcorn.image",
     "popcorn.loopPlugin": "../templates/assets/plugins/loopPlugin/popcorn.loopPlugin",
     "popcorn.pausePlugin": "../templates/assets/plugins/pausePlugin/popcorn.pausePlugin",
@@ -30,7 +29,6 @@ requirejs.config({
     "popcorn.sketchfab": "../templates/assets/plugins/sketchfab/popcorn.sketchfab",
     "popcorn.skip": "../templates/assets/plugins/skip/popcorn.skip",
     "popcorn.text": "../templates/assets/plugins/text/popcorn.text",
-    "popcorn.wikipedia": "../templates/assets/plugins/wikipedia/popcorn.wikipedia",
     "popcorn.deprecated": "../src/util/deprecated",
 
     // RequireJS
@@ -64,7 +62,6 @@ requirejs.config({
     "popcorn.youtube":  [ "popcorn.core", "popcorn.player", "popcorn.HTMLYouTubeVideoElement" ],
 
     // Plugins
-    "popcorn.googlemap": [ "popcorn.core" ],
     "popcorn.image": [ "popcorn.core" ],
     "popcorn.loopPlugin": [ "popcorn.core" ],
     "popcorn.pausePlugin": [ "popcorn.core" ],
@@ -72,7 +69,6 @@ requirejs.config({
     "popcorn.sequencer": [ "popcorn.core", "popcorn.player" ],
     "popcorn.skip": [ "popcorn.core" ],
     "popcorn.text": [ "popcorn.core" ],
-    "popcorn.wikipedia": [ "popcorn.core" ],
     "popcorn.sketchfab": [ "popcorn.core", "sketchfab-iframe" ],
     "popcorn.deprecated": [ "popcorn.core" ]
   }
@@ -84,7 +80,6 @@ define([
   "popcorn.soundcloud",
   "popcorn.vimeo",
   "popcorn.youtube",
-  "popcorn.googlemap",
   "popcorn.image",
   "popcorn.loopPlugin",
   "popcorn.pausePlugin",
@@ -93,7 +88,6 @@ define([
   "popcorn.sketchfab",
   "popcorn.skip",
   "popcorn.text",
-  "popcorn.wikipedia",
   "popcorn.deprecated",
   "popcorn.HTMLMediaElement",
   "popcorn.HTMLNullVideoElement",

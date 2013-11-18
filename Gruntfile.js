@@ -15,7 +15,6 @@ module.exports = function( grunt ) {
           "public/css/butter.ui.less",
           "public/css/embed.less",
           "public/css/transitions.less",
-          "public/templates/assets/plugins/wikipedia/popcorn.wikipedia.less",
           "public/templates/assets/plugins/sketchfab/popcorn.sketchfab.less",
           "public/templates/basic/style.less",
           "public/templates/assets/css/jquery-ui/jquery.ui.butter.less"

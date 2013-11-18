@@ -177,25 +177,6 @@
                             "name": "TrackEvent10"
                         },
                         {
-                            "id": "TrackEvent5",
-                            "type": "wikipedia",
-                            "popcornOptions": {
-                                "start": 159.28802,
-                                "end": 165.22054,
-                                "target": "video-container",
-                                "lang": "en",
-                                "src": "Seasickness",
-                                "width": 40,
-                                "height": 52.38095238095239,
-                                "top": 2.5396825396825395,
-                                "left": 60,
-                                "transition": "popcorn-fade",
-                                "zindex": 1000
-                            },
-                            "track": "0",
-                            "name": "TrackEvent11"
-                        },
-                        {
                             "id": "TrackEvent6",
                             "type": "text",
                             "popcornOptions": {
@@ -784,25 +765,6 @@
                             "name": "TrackEvent35"
                         },
                         {
-                            "id": "TrackEvent26",
-                            "type": "wikipedia",
-                            "popcornOptions": {
-                                "start": 640.47021,
-                                "end": 645.47021,
-                                "target": "video-container",
-                                "lang": "en",
-                                "src": "http://en.wikipedia.org/wiki/Dale_Purves",
-                                "width": 41.785714285714285,
-                                "height": 100.95238095238095,
-                                "top": -0.9523809523809524,
-                                "left": 58.214285714285715,
-                                "transition": "popcorn-fade",
-                                "zindex": 1000
-                            },
-                            "track": "0",
-                            "name": "TrackEvent36"
-                        },
-                        {
                             "id": "TrackEvent27",
                             "type": "popup",
                             "popcornOptions": {
@@ -1372,25 +1334,6 @@
                             },
                             "track": "0",
                             "name": "TrackEvent34"
-                        },
-                        {
-                            "id": "TrackEvent47",
-                            "type": "wikipedia",
-                            "popcornOptions": {
-                                "start": 59.82126,
-                                "end": 64.82126,
-                                "target": "video-container",
-                                "lang": "en",
-                                "src": "http://en.wikipedia.org/wiki/Perception",
-                                "width": 44.82142857142858,
-                                "height": 86.66666666666667,
-                                "top": 13.333333333333334,
-                                "left": 0,
-                                "transition": "popcorn-fade",
-                                "zindex": 1000
-                            },
-                            "track": "0",
-                            "name": "TrackEvent6"
                         }
                     ]
                 },
@@ -1398,56 +1341,6 @@
                     "name": "Layer 1",
                     "id": "1",
                     "trackEvents": [
-                        {
-                            "id": "TrackEvent48",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "start": 293.51157,
-                                "end": 303.32024,
-                                "target": "video-container",
-                                "type": "ROADMAP",
-                                "location": "",
-                                "fullscreen": false,
-                                "heading": 0,
-                                "pitch": 1,
-                                "zoom": 11,
-                                "transition": "popcorn-fade",
-                                "left": 0.8928571428571428,
-                                "top": 27.936507936507937,
-                                "width": 36.25,
-                                "height": 52.38095238095239,
-                                "lat": 50.34691535671606,
-                                "lng": -3.6859852275390526,
-                                "zindex": 999
-                            },
-                            "track": "1",
-                            "name": "TrackEvent53"
-                        },
-                        {
-                            "id": "TrackEvent49",
-                            "type": "googlemap",
-                            "popcornOptions": {
-                                "start": 555.71524,
-                                "end": 558.01414,
-                                "target": "video-container",
-                                "type": "ROADMAP",
-                                "location": "The George Inn Blackawton UK",
-                                "fullscreen": "",
-                                "heading": 0,
-                                "pitch": 1,
-                                "zoom": 16,
-                                "transition": "popcorn-fade",
-                                "left": 51.60714285714286,
-                                "top": 48.888888888888886,
-                                "width": 40.2332361516035,
-                                "height": 50.79365079365079,
-                                "lat": 50.34494353136311,
-                                "lng": -3.681629320098867,
-                                "zindex": 999
-                            },
-                            "track": "1",
-                            "name": "TrackEvent54"
-                        },
                         {
                             "id": "TrackEvent50",
                             "type": "image",
