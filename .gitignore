@@ -12,6 +12,7 @@
 *.wav
 *.webm
 *~
+local.json
 /dist/
 /node_modules/
 /user_published/
