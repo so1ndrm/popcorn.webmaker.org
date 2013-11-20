@@ -13,7 +13,6 @@
 *.webm
 *~
 /dist/
-/local.json
 /node_modules/
 /user_published/
 bower_components/

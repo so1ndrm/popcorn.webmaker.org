@@ -1,0 +1,9 @@
+{
+    "hostname": "http://localhost:8080",
+
+    "OPTIMIZE_JS": false,
+    "OPTIMIZE_CSS": false,
+    "FORCE_SSL": false,
+    "DEBUG": true,
+    "PORT": 8080
+}
