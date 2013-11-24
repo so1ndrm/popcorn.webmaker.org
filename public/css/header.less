@@ -1,7 +1,6 @@
 /*********************************************************
 * HEADER
 */
-@_logoWidth: 220px;
 @midgrey: #ddd;
 
 // Used to position absolute elements in the middle of our header bar area
@@ -49,22 +48,12 @@
   .clearfix();
 }
 
-.butter-logo {
-  position: absolute;
-  top: 0;
-  left: 15px;
-  height: 62px;
-  width: @_logoWidth;
-  background: url( "../resources/popcorn-logo.svg" ) center no-repeat;
-  background-size: contain;
-}
-
 .butter-nav {
   position: absolute;
   top: 0;
   margin: 0;
   padding: 0;
-  margin-left: @_logoWidth + 30;
+  margin-left: 30px;
   list-style: none;
   width: 60%;
   height: @HEADER_SPACING;
@@ -72,15 +61,6 @@
   > li {
     float: left;
     padding: 0 20px;
-    &.butter-breadcrumbs {
-      position: relative;
-      padding: 0;
-      margin-right: 10px;
-      width: 1px;
-      height: 100%;
-      border-right: 1px solid @baseLightOutline;
-      .triangle( "right", 5px, #FFF, 1px, @baseLightOutline );
-    }
   }
 }
 
